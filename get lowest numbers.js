@@ -4,7 +4,7 @@ function sumTwoSmallestNumbers(numbers) {
   
   lowestNumberIndex = numbers.indexOf(lowestNumber);
   
-  numbers[lowestNumberIndex] = 9999;
+  numbers[lowestNumberIndex] = Math.pow(9999, 10);
   
   secondLowestNumber = Math.min.apply(Math, numbers)
   
